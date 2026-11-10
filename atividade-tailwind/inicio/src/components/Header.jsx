@@ -8,8 +8,8 @@ const links = [
 // EXERCÍCIO 2: barra de navegação
 export default function Header() {
   return (
-    <header>
-      <nav>
+    <header className="flex bg-white-600 sticky top-0 z-10">
+      <nav className="max-w-6xl mx-auto px-4 py-4">
         <a href="#">☕ Grão Dourado</a>
         <ul>
           {links.map((link) => (
