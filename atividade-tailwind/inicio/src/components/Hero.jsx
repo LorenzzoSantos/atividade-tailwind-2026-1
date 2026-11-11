@@ -8,8 +8,8 @@ export default function Hero() {
         servidos com carinho desde 2010.
       </p>
       <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-        <a href="#cardapio" className="bg-amber-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-amber-700 active:scale-95 transition">Ver cardápio</a>
-        <a href="#sobre" className="border-2 amber-600 text-amber-700 px-6 py-3 rounded-full hover:bg-amber-600 hover:text-white">Nossa história</a>
+        <a href="#cardapio" className="bg-cafe-500 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-amber-700 active:scale-95 transition">Ver cardápio</a>
+        <a href="#sobre" className="border-2 amber-600 text-cafe-500 px-6 py-3 rounded-full hover:bg-amber-600 hover:text-white">Nossa história</a>
       </div>
     </section>
   )

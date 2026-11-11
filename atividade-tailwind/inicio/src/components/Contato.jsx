@@ -21,7 +21,7 @@ export default function Contato() {
           <label htmlFor="mensagem" className="block text-sm font-medium mb-1">Mensagem</label>
           <textarea id="mensagem" placeholder="Escreva sua mensagem..." className="w-full border border-stone-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 h-32"/>
         </div>
-        <button type="submit" className="w-full bg-amber-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-amber-700 active:scale-95 transition">Enviar</button>
+        <button type="submit" className="w-full bg-cafe-500 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-amber-700 active:scale-95 transition">Enviar</button>
       </form>
     </section>
   )
